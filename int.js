@@ -51,9 +51,6 @@ c('.pizzaInfo--desc').innerHTML = pizzaJson[key].description;
 c('.pizzaInfo--actualPrice').innerHTML = `R$  ${item.price[2].toFixed(2)}`; //STRING `  ` ; toFixed(2) apenas 2 algoritimos apos a virgula.
 
 
-
-
-
 // TAMANHOS DA PIZZA 
 c('.pizzaInfo--size.selected').classList.remove('selected');
 
